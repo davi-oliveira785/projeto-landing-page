@@ -1,3 +1,4 @@
+/*formatação geral da pagina*/
 *{
     margin: 0px;
     font-family: 'Inter', sans-serif;
@@ -6,6 +7,7 @@
     margin-left: 75px;
     margin-top: 50px;
 }
+/*Menu Superior*/
 #titulo-menusuperior{
     margin-left: 150px;
     margin-top: 75px;
@@ -19,6 +21,7 @@
     background-image: url(Imagens/fundo-menusuperior.svg);
     color: aliceblue;
 }
+/*Menu Informacional*/
 #menuinformacional{
     background-color: #eaece5;
     display: grid;
@@ -33,6 +36,7 @@
     display: flex;
     align-items: center;
 }
+/*Seção Video*/
 #titulovideo{
     color: #247ba0;
 }
@@ -47,7 +51,7 @@
     margin: 0px 25px 50px 250px;
     padding-right: 25px;
 }
-
+/*Carrossel*/
 #carrossel{
     background-color: #247ba0;
     padding: 50px;
@@ -85,6 +89,7 @@
     transform: translateY(-7px);
     transition-duration: 300ms;
 }
+/*Formulario*/
 #formulario{
     text-align: center;
 }
